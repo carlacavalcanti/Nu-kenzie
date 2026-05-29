@@ -1,0 +1,29 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 560px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 16px 8px;
+  gap: 15px;
+
+  h1 {
+    font-size: 18px;
+    color: #212529;
+  }
+  button {
+    width: 49px;
+    background: #e9ecef;
+    color: #212529;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 2px 3px;
+  }
+}
+.entrada {
+  border-left: 4px solid #03b898;
+}
+.saida {
+  border-left: 4px solid #e9ecef;
+}

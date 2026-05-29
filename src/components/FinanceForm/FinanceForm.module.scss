@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 355px;
+  height: 434px;
+  border: solid 1px #00000033;
+  padding: 16px 8px;
+  font-size: 12px;
+  gap: 20px;
+  .input {
+    width: 314px;
+    height: 46px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    border: none;
+  }
+  button {
+    width: 324px;
+    background: #fd377e;
+    border-radius: 8px;
+    color: #ffffff;
+    border: solid 2px #fd377e;
+    padding: 10px;
+  }
+}
